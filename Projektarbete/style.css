@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #3F3B6C;
+  background-color: #3f3b6c;
 }
 
 li {
@@ -48,15 +48,18 @@ a {
 }
 
 main {
-  height: 100%;
+  min-height: calc(100vh - 82px - 57px);
+  display: block;
+  overflow: auto;
   display: flex;
   justify-content: center;
 }
 main .main-content {
   background-color: white;
-  height: 850px;
   width: 1400px;
   text-align: center;
+  display: block;
+  overflow: auto;
 }
 main .main-content .links {
   display: flex;
@@ -72,6 +75,23 @@ main .main-content .links .CTA {
 }
 main .main-content .links .CTA:hover {
   background-color: #9f73ab;
+}
+main .main-content .article {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px;
+}
+main .main-content .workers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .main-content .workers .worker {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
 }
 
 .nav-branding {
@@ -123,7 +143,7 @@ footer {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #624F82;
+    background-color: #624f82;
     width: 100%;
     text-align: center;
     transition: 0.3s;
