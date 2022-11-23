@@ -1,3 +1,9 @@
+
+$main-color:#3F3B6C;
+$secondary-color:#624F82;
+$third-color:#9F73AB;
+$fourth-color:#A3C7D6;
+
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +15,7 @@ body {
   min-height: 100vh;
 }
 header {
-  background-color: #3f3b6c;
+  background-color: $main-color;
 }
 li {
   list-style: none;
@@ -63,13 +69,13 @@ main {
       margin-top: 90px;
 
       .CTA {
-        background-color: #624f82;
+        background-color: $main-color;
         color: white;
         padding: 10px;
         border-radius: 10px;
       }
       .CTA:hover {
-        background-color: #9f73ab;
+        background-color: $secondary-color;
       }
     }
 
@@ -143,7 +149,7 @@ footer {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #624f82;
+    background-color: $secondary-color;
     width: 100%;
     text-align: center;
     transition: 0.3s;

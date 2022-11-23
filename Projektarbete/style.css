@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #3f3b6c;
+  background-color: #3F3B6C;
 }
 
 li {
@@ -68,13 +68,13 @@ main .main-content .links {
   margin-top: 90px;
 }
 main .main-content .links .CTA {
-  background-color: #624f82;
+  background-color: #3F3B6C;
   color: white;
   padding: 10px;
   border-radius: 10px;
 }
 main .main-content .links .CTA:hover {
-  background-color: #9f73ab;
+  background-color: #624F82;
 }
 main .main-content .article {
   border: 1px solid black;
@@ -143,7 +143,7 @@ footer {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #624f82;
+    background-color: #624F82;
     width: 100%;
     text-align: center;
     transition: 0.3s;
