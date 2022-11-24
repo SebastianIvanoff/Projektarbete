@@ -76,6 +76,7 @@ input[type=submit]:hover {
   padding: 1rem;
   color: #A3C7D6;
   font-size: 2rem;
+  border-radius: 25px;
 }
 .img-container .bottom-left {
   position: absolute;
@@ -85,6 +86,7 @@ input[type=submit]:hover {
   padding: 1rem;
   color: #A3C7D6;
   font-size: 1.5rem;
+  border-radius: 25px;
 }
 
 * {
