@@ -1,0 +1,64 @@
+//Flex postionings
+
+@media (max-width: 920px) {
+    .product-card {
+        flex: 1 21%;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-card {
+        flex: 1 46%;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-filter {
+        flex-direction: column;
+    }
+    .sort {
+        align-self: flex-start;
+    }
+}
+
+.product-h2, .product-h3 {
+    font-size: 1rem;
+}
+.product-filter {
+    display: flex;
+    h1 {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .sort {
+        display: flex;
+        
+        .collection-sort {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    .product-card {
+        padding: 2%;
+        flex-grow: 1;
+        flex-basis: 16%;
+        flex-direction: column;
+
+        .product-info {
+            margin-top: auto;
+        }
+
+        display: flex;
+        .product-image img {
+            max-width: 100%;
+        }
+    }
+}
+
+//styling for the product page
+
