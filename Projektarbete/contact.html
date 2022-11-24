@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="contact-page">
     <header>
       <div class="container">
         <nav class="navbar">
@@ -42,6 +42,12 @@
           </nav>
       </div>
     </header>
+    <div class="img-container">
+    <img class="office" src="img/Purple-office.jpg" alt="">
+    <div class="bottom-left">inteenriktiggata 99. 13 337 . Härstorp<br>
+                               Kundservice: 08-99 999 35 71</div>
+    <div class="centered">Vi är för att hjälpa dig!</div>
+    </div>
 
     <div class="form-container">
       <form action="action_page.php">
@@ -53,6 +59,7 @@
 
         <label for="counrty">Land</label>
         <select name="country" id="country">
+          <option value="--Land--">--Land--</option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Åland Islands">Åland Islands</option>
           <option value="Albania">Albania</option>
@@ -298,15 +305,28 @@
           <option value="Zambia">Zambia</option>
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
+        <label for="Ämne">Ämne</label>
+        <select name="ämne" id="ämne">
+          <option value="--ämne--">--Ämne--</option>
+          <option value="Frågor om produkt">Frågor om produkt</option>
+          <option value="Reklamation">Reklamation</option>
+          <option value="Frågor om företaget eller
+          Synpunkter på webbplats">Frågor om företaget eller
+          Synpunkter på webbplats</option>
+          <option value="Övrigt">Övrigt</option>
+        </select>
 
-        <label for="subject">Ämne</label>
+
+        <label for="subject">Fråga</label>
         <textarea name="subject" id="subject" placeholder="Skriv här..."></textarea>
+
+        <input type="submit" value="Submit">
       </form>
     </div>
     <footer>
       <span>Dreamverse AB</span>
-      <span> 08-99 999 35 71</span>
-      <span>inteenriktiggata 99. 13 337 . Härstorp</span> 
+      <span>Dreamverse@aiart.com</span>
+      <span></span>
     </footer>
     <script src="script.js"></script>
   </body>

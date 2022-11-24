@@ -1,0 +1,20 @@
+$main-color:#3F3B6C;
+$secondary-color:#624F82;
+$third-color:#9F73AB;
+$fourth-color:#A3C7D6;
+
+
+@mixin placeholder-color {
+    &::-webkit-input-placeholder {
+      color: $fourth-color;
+    }
+    &:-moz-placeholder {
+      color: $fourth-color;
+    }
+    &::-moz-placeholder {
+      color: $fourth-color;
+    }
+    &:-ms-input-placeholder {
+      color: $fourth-color;
+    }
+  }

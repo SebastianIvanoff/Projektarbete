@@ -1,3 +1,6 @@
+@import './variables';
+@import './contact';
+
 *{
     padding: 0;
     margin: 0;
@@ -17,10 +20,6 @@
     text-decoration: none;
   }
 
-$main-color:#3F3B6C;
-$secondary-color:#624F82;
-$third-color:#9F73AB;
-$fourth-color:#A3C7D6;
 
   .container{
     max-width: 1224px;
@@ -69,7 +68,7 @@ $fourth-color:#A3C7D6;
     bottom: 0;
     width: 100%;
     text-align: left;
-    background-color: #624F82;
+    background-color: $secondary-color;
     color: #A3C7D6;
     display: flex;
     flex-direction: column;
@@ -105,47 +104,3 @@ $fourth-color:#A3C7D6;
       left: 0;
     }
   }
-
-  //Form Styling
-
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #9F73AB;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  .form-container {
-    border-radius: 5px;
-    background-color: #624F82;
-    padding: 20px;
-  }
-
-  textarea {
-    background-color: #9F73AB;
-    ::placeholder {
-      color: #A3C7D6;
-    }
-  }
-
-
-body {
-  background-color: #3F3B6C;
-}
