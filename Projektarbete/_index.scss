@@ -1,0 +1,29 @@
+main {
+  min-height: calc(100vh - 82px - 57px);
+  display: flex;
+  justify-content: center;
+  .main-content {
+    width: 1400px;
+    text-align: center;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 90px;
+      .CTA {
+        background-color: $secondary-color;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .CTA:hover {
+        background-color: $third-color;
+      }
+    }
+  }
+}
+
+.ai-art {
+  display: flex;
+  justify-content: space-around;
+}

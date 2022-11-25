@@ -1,0 +1,22 @@
+.article {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px;
+  }
+  .workers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+    p{
+        padding: 10px;
+    }
+   
+    .worker{
+      border: 1px solid black;
+      border-radius: 10px;
+      height: 300px;
+      width: 300px;
+      margin: 20px;
+    }
+  }
