@@ -190,6 +190,57 @@ input[type=submit]:hover {
   border-radius: 5px;
 }
 
+main {
+  min-height: calc(100vh - 82px - 57px);
+  display: flex;
+  justify-content: center;
+}
+main .main-content {
+  width: 1400px;
+  text-align: center;
+}
+main .main-content .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+main .main-content .links .CTA {
+  background-color: #624F82;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+main .main-content .links .CTA:hover {
+  background-color: #9F73AB;
+}
+
+.ai-art {
+  display: flex;
+  justify-content: space-around;
+}
+
+.article {
+  padding: 10px;
+  margin: 40px;
+}
+
+.workers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.workers p {
+  padding: 10px;
+}
+.workers .worker {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -200,7 +251,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: #3F3B6C;
 }
 
 li {
@@ -284,7 +335,7 @@ footer {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #262626;
+    background-color: #624F82;
     width: 100%;
     text-align: center;
     transition: 0.3s;
