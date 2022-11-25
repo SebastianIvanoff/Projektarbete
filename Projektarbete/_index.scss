@@ -15,6 +15,7 @@ main {
         color: white;
         padding: 10px;
         border-radius: 10px;
+        box-shadow: 10px 10px 5px $fourth-color;
       }
       .CTA:hover {
         background-color: $third-color;
@@ -26,4 +27,7 @@ main {
 .ai-art {
   display: flex;
   justify-content: space-around;
+  .img{
+    box-shadow: 10px 10px 5px $fourth-color;
+  }
 }
