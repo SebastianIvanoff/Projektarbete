@@ -392,6 +392,7 @@ main .main-content .links .CTA:hover {
   height: 300px;
   width: 300px;
   margin: 50px;
+  font-family: "work-sans", sans-serif;
 }
 
 * {
