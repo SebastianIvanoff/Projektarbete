@@ -305,6 +305,7 @@ main .main-content .links .CTA {
   color: white;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 10px 10px 5px #A3C7D6;
 }
 main .main-content .links .CTA:hover {
   background-color: #9F73AB;
@@ -314,10 +315,54 @@ main .main-content .links .CTA:hover {
   display: flex;
   justify-content: space-around;
 }
+.ai-art .img {
+  box-shadow: 10px 10px 5px #A3C7D6;
+}
 
+@media (max-width: 500px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .links .CTA {
+    margin: 10px 0 10px 0;
+  }
+  .ai-art {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .ai-art .img {
+    margin: 10px 0 10px 0;
+  }
+}
 .article {
-  padding: 10px;
+  padding: 50px;
   margin: 40px;
+}
+.article .motto {
+  font-size: 1.4rem;
+  padding: -10px;
+  margin: 20px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.article .history {
+  font-size: 1.5rem;
+  padding: -10px;
+  margin: 20px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img {
+  box-shadow: 10px 10px 5px #A3C7D6;
 }
 
 .workers {
@@ -325,15 +370,12 @@ main .main-content .links .CTA:hover {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.workers p {
-  padding: 10px;
-}
 .workers .worker {
-  border: 1px solid black;
+  box-shadow: 10px 10px 5px #A3C7D6;
   border-radius: 10px;
   height: 300px;
   width: 300px;
-  margin: 20px;
+  margin: 50px;
 }
 
 * {
@@ -425,7 +467,7 @@ footer {
     transform: translateY(-8px) rotate(-45deg);
   }
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 70px;
     gap: 0;

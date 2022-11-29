@@ -1,22 +1,38 @@
 .article {
-   
-    padding: 10px;
-    margin: 40px;
-  }
-  .workers {
+  padding: 50px;
+  margin: 40px;
+  .motto {
+    font-size: 1.4rem;
+    padding: -10px;
+    margin: 20px 0 50px 0;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
- 
-    p{
-        padding: 10px;
-    }
-   
-    .worker{
-      border: 1px solid black;
-      border-radius: 10px;
-      height: 300px;
-      width: 300px;
-      margin: 20px;
-    }
   }
+  .history {
+    font-size: 1.5rem;
+    padding: -10px;
+    margin: 20px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+.img {
+  box-shadow: 10px 10px 5px $fourth-color;
+}
+.workers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .worker {
+    box-shadow: 10px 10px 5px $fourth-color;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+  }
+}
