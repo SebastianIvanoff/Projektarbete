@@ -178,6 +178,25 @@ main .main-content .links .CTA:hover {
   box-shadow: 10px 10px 5px #A3C7D6;
 }
 
+@media (max-width: 500px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .links .CTA {
+    margin: 10px 0 10px 0;
+  }
+  .ai-art {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .ai-art .img {
+    margin: 10px 0 10px 0;
+  }
+}
 .article {
   padding: 50px;
   margin: 40px;
@@ -189,6 +208,7 @@ main .main-content .links .CTA:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .article .history {
   font-size: 1.5rem;
@@ -197,6 +217,7 @@ main .main-content .links .CTA:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .img {
