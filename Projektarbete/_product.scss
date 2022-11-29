@@ -44,7 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     
-    .product-card {
+    .product-card{
         padding: 2%;
         flex-grow: 1;
         flex-basis: 16%;
@@ -78,7 +78,7 @@
 
 
 .product-body {
-    background: $main-color;
+    background: $third-color;
     color: $fourth-color;
 }
 
@@ -111,3 +111,4 @@
         border-radius: 5px;
     }
 }
+
