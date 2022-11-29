@@ -278,7 +278,7 @@ input[type=submit]:hover {
   border-color: #A3C7D6;
   margin-top: 1rem;
   border-radius: 5px;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 .product-card .buy-button:active {
   background-color: #A3C7D6;
@@ -289,11 +289,11 @@ input[type=submit]:hover {
 }
 
 .product-h2 {
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
 }
 
 .product-h3, .product-h4 {
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 
 main {
@@ -304,6 +304,9 @@ main {
 main .main-content {
   width: 1400px;
   text-align: center;
+}
+main .main-content h1 {
+  font-family: "Raleway", sans-serif;
 }
 main .main-content .links {
   display: flex;
@@ -361,6 +364,7 @@ main .main-content .links .CTA:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  font-family: "work-sans", sans-serif;
 }
 .article .history {
   font-size: 1.5rem;
@@ -370,6 +374,7 @@ main .main-content .links .CTA:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  font-family: "work-sans", sans-serif;
 }
 
 .img {
