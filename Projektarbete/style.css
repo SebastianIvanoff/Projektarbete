@@ -278,6 +278,7 @@ input[type=submit]:hover {
   border-color: #A3C7D6;
   margin-top: 1rem;
   border-radius: 5px;
+  font-family: work-sans;
 }
 .product-card .buy-button:active {
   background-color: #A3C7D6;
@@ -285,6 +286,14 @@ input[type=submit]:hover {
 }
 .product-card .product-image {
   border-radius: 5px;
+}
+
+.product-h2 {
+  font-family: raleway;
+}
+
+.product-h3, .product-h4 {
+  font-family: work-sans;
 }
 
 main {

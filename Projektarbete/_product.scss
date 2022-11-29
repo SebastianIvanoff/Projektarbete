@@ -103,6 +103,7 @@
         border-color: $fourth-color;
         margin-top: 1rem;
         border-radius: 5px;
+        font-family: $text;
         &:active {
             background-color: $fourth-color;
             color: $secondary-color;
@@ -114,3 +115,10 @@
     }
 }
 
+.product-h2 {
+    font-family: $rubrik;
+}
+
+.product-h3, .product-h4 {
+    font-family: $text;
+}
