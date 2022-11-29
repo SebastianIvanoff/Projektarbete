@@ -27,6 +27,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     margin-bottom: 3rem;
     cursor: pointer;
+    font-family: $text;
   }
 
   input[type=submit]:hover {
@@ -37,6 +38,8 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: $secondary-color;
     padding: 20px;
+    font-family: $text;
+    color: $fourth-color;
   }
 
 .contact-page {
@@ -58,7 +61,8 @@ input[type=text], select, textarea {
   flex-direction: column;
   text-align: center;
   color: white;
-  -webkit-text-stroke: 1px black;
+  
+  font-family: $text;
 
   .bottom-left {
   

@@ -21,6 +21,7 @@
   flex-wrap: wrap;
   width: 100%;
   background-color: #9F73AB;
+  padding-bottom: 4.9rem;
 }
 #reviews .review-box {
   width: 500px;
@@ -41,6 +42,8 @@
 #reviews .review-box .box-top .user-comment p {
   font-size: 0.9rem;
   color: #A3C7D6;
+  margin-top: 0.5rem;
+  font-family: "work-sans", sans-serif;
 }
 #reviews .review-box .box-top .profil {
   display: flex;
@@ -142,6 +145,7 @@ input[type=submit] {
   border-radius: 4px;
   margin-bottom: 3rem;
   cursor: pointer;
+  font-family: "work-sans", sans-serif;
 }
 
 input[type=submit]:hover {
@@ -152,6 +156,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #624F82;
   padding: 20px;
+  font-family: "work-sans", sans-serif;
+  color: #A3C7D6;
 }
 
 .contact-page {
@@ -173,7 +179,7 @@ input[type=submit]:hover {
   flex-direction: column;
   text-align: center;
   color: white;
-  -webkit-text-stroke: 1px black;
+  font-family: "work-sans", sans-serif;
 }
 .img-container .bottom-left {
   background-color: #3F3B6C;
@@ -212,6 +218,7 @@ input[type=submit]:hover {
 .product-filter h1 {
   flex-grow: 1;
   width: 100%;
+  font-family: "Raleway", sans-serif;
 }
 .product-filter .sort {
   display: flex;
@@ -253,16 +260,19 @@ input[type=submit]:hover {
 
 .collection-sort {
   padding: 0 1rem;
+  font-family: "work-sans", sans-serif;
 }
 
 .product-body {
   background: #9F73AB;
   color: #A3C7D6;
+  padding-bottom: 2.8rem;
 }
 
 .product-filter {
   background-color: #624F82;
   color: #A3C7D6;
+  font-family: "work-sans", sans-serif;
 }
 
 .product-h1 {
@@ -286,10 +296,6 @@ input[type=submit]:hover {
 }
 .product-card .product-image {
   border-radius: 5px;
-}
-
-.product-h2 {
-  font-family: "Raleway", sans-serif;
 }
 
 .product-h3, .product-h4 {
@@ -460,7 +466,6 @@ a {
 
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   text-align: left;
@@ -468,6 +473,23 @@ footer {
   color: #A3C7D6;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 0px 15px rgb(120, 50, 129);
+  height: 78px;
+}
+footer .content {
+  display: block;
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+  width: 400px;
+}
+footer .content span {
+  display: inline;
+}
+footer .content img {
+  height: 70px;
+  width: 100px;
+  float: left;
 }
 
 @media (max-width: 1024px) {
