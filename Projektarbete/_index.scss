@@ -5,6 +5,9 @@ main {
   .main-content {
     width: 1400px;
     text-align: center;
+    h1{
+     font-family: $rubrik;
+    }
     .links {
       display: flex;
       align-items: center;

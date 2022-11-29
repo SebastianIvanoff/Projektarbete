@@ -42,7 +42,7 @@
   font-size: 0.9rem;
   color: #A3C7D6;
   margin-top: 0.5rem;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 #reviews .review-box .box-top .profil {
   display: flex;
@@ -144,7 +144,7 @@ input[type=submit] {
   border-radius: 4px;
   margin-bottom: 3rem;
   cursor: pointer;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 
 input[type=submit]:hover {
@@ -155,7 +155,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #624F82;
   padding: 20px;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
   color: #A3C7D6;
 }
 
@@ -178,7 +178,7 @@ input[type=submit]:hover {
   flex-direction: column;
   text-align: center;
   color: white;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 .img-container .bottom-left {
   background-color: #3F3B6C;
@@ -217,7 +217,7 @@ input[type=submit]:hover {
 .product-filter h1 {
   flex-grow: 1;
   width: 100%;
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
 }
 .product-filter .sort {
   display: flex;
@@ -259,7 +259,7 @@ input[type=submit]:hover {
 
 .collection-sort {
   padding: 0 1rem;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 
 .product-body {
@@ -270,7 +270,7 @@ input[type=submit]:hover {
 .product-filter {
   background-color: #624F82;
   color: #A3C7D6;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 
 .product-h1 {
@@ -286,7 +286,7 @@ input[type=submit]:hover {
   border-color: #A3C7D6;
   margin-top: 1rem;
   border-radius: 5px;
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 .product-card .buy-button:active {
   background-color: #A3C7D6;
@@ -297,7 +297,7 @@ input[type=submit]:hover {
 }
 
 .product-h3, .product-h4 {
-  font-family: work-sans;
+  font-family: "work-sans", sans-serif;
 }
 
 main {
@@ -308,6 +308,9 @@ main {
 main .main-content {
   width: 1400px;
   text-align: center;
+}
+main .main-content h1 {
+  font-family: "Raleway", sans-serif;
 }
 main .main-content .links {
   display: flex;
@@ -365,6 +368,7 @@ main .main-content .links .CTA:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  font-family: "work-sans", sans-serif;
 }
 .article .history {
   font-size: 1.5rem;
@@ -374,6 +378,7 @@ main .main-content .links .CTA:hover {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  font-family: "work-sans", sans-serif;
 }
 
 .img {
