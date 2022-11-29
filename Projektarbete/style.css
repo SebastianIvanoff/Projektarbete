@@ -326,7 +326,7 @@ footer {
     transform: translateY(-8px) rotate(-45deg);
   }
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 70px;
     gap: 0;
