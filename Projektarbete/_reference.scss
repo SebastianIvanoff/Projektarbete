@@ -16,6 +16,7 @@
     flex-direction: column;
     width: 100%;
     background-color: $main-color;
+    
 
     .reviews-container {
         display: flex;
@@ -48,7 +49,8 @@
                 .user-comment p {
                     font-size: 0.9rem;
                     color: $fourth-color;
-            
+                    margin-top: 0.5rem;
+                    font-family: $text;
                 }
                 
                 .profil {
