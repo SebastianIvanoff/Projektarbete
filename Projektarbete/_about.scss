@@ -23,7 +23,8 @@
   }
 }
 .img {
-  box-shadow: 10px 10px 5px $fourth-color;
+  box-shadow: 10px 10px 5px $main-color;
+  margin: 10px;
 }
 .workers {
   display: flex;
@@ -31,11 +32,16 @@
   flex-wrap: wrap;
 
   .worker {
-    box-shadow: 10px 10px 5px $fourth-color;
+    box-shadow: 10px 10px 5px $main-color;
+    background-color: $fourth-color;
     border-radius: 10px;
     height: 300px;
     width: 300px;
     margin: 50px;
     font-family: $text;
+    .profile{
+      height: 100px;
+      border-radius: 10px;
+    }
   }
 }

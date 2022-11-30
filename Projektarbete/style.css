@@ -306,6 +306,7 @@ main {
   min-height: calc(100vh - 82px - 57px);
   display: flex;
   justify-content: center;
+  background-color: #9F73AB;
 }
 main .main-content {
   width: 1400px;
@@ -313,6 +314,7 @@ main .main-content {
 }
 main .main-content h1 {
   font-family: "Raleway", sans-serif;
+  color: #A3C7D6;
 }
 main .main-content .links {
   display: flex;
@@ -322,7 +324,7 @@ main .main-content .links {
 }
 main .main-content .links .CTA {
   background-color: #624F82;
-  color: white;
+  color: #A3C7D6;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 5px #A3C7D6;
@@ -355,7 +357,7 @@ main .main-content .links .CTA:hover {
     flex-wrap: wrap;
   }
   .ai-art .img {
-    margin: 10px 0 10px 0;
+    margin: 10px;
   }
 }
 .article {
@@ -384,7 +386,8 @@ main .main-content .links .CTA:hover {
 }
 
 .img {
-  box-shadow: 10px 10px 5px #A3C7D6;
+  box-shadow: 10px 10px 5px #3F3B6C;
+  margin: 10px;
 }
 
 .workers {
@@ -393,12 +396,17 @@ main .main-content .links .CTA:hover {
   flex-wrap: wrap;
 }
 .workers .worker {
-  box-shadow: 10px 10px 5px #A3C7D6;
+  box-shadow: 10px 10px 5px #3F3B6C;
+  background-color: #A3C7D6;
   border-radius: 10px;
   height: 300px;
   width: 300px;
   margin: 50px;
   font-family: "work-sans", sans-serif;
+}
+.workers .worker .profile {
+  height: 100px;
+  border-radius: 10px;
 }
 
 * {
