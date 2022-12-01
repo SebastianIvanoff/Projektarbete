@@ -328,7 +328,7 @@ main .main-content .links .CTA {
   color: #ffffff;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px #ffffff;
+  box-shadow: 10px 10px 5px #23213b;
   font-family: "work-sans", sans-serif;
 }
 main .main-content .links .CTA:hover {
@@ -340,7 +340,7 @@ main .main-content .links .CTA:hover {
   justify-content: space-around;
 }
 .ai-art .img {
-  box-shadow: 10px 10px 5px #ffffff;
+  box-shadow: 10px 10px 5px #23213b;
 }
 
 @media (max-width: 500px) {
@@ -375,6 +375,7 @@ main .main-content .links .CTA:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-family: "work-sans", sans-serif;
+  color: #ffffff;
 }
 .article .history {
   font-size: 1.5rem;
@@ -385,6 +386,7 @@ main .main-content .links .CTA:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-family: "work-sans", sans-serif;
+  color: #ffffff;
 }
 
 .img {
@@ -409,6 +411,12 @@ main .main-content .links .CTA:hover {
 .workers .worker .profile {
   height: 100px;
   border-radius: 10px;
+  margin: 5px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: "work-sans", sans-serif;
 }
 
 * {

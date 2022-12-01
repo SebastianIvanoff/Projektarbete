@@ -10,6 +10,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: $text;
+    color: $fourth-color;
   }
   .history {
     font-size: 1.5rem;
@@ -20,6 +21,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: $text;
+    color: $fourth-color;
   }
 }
 .img {
@@ -42,6 +44,12 @@
     .profile{
       height: 100px;
       border-radius: 10px;
+      margin: 5px;
     }
   }
+}
+
+.text{
+  color: $fourth-color;
+  font-family: $text;
 }
