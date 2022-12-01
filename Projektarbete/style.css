@@ -507,7 +507,7 @@ footer .content {
   padding: 5px;
   margin: 0px auto;
   text-align: center;
-  width: 400px;
+  width: 100%;
   padding-right: 5rem;
 }
 footer .content span {
@@ -552,7 +552,7 @@ footer .content img {
     left: 0;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1024px) {
   .snabb {
     display: none;
   }

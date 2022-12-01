@@ -94,7 +94,7 @@
       padding: 5px;
       margin: 0px auto;
       text-align: center;
-      width:400px;
+      width:100%;
       padding-right: 5rem;
       span {
         display:flex;
@@ -144,7 +144,7 @@
     }
   }
 
-@media (max-width:1300px) {
+@media (max-width:1024px) {
   .snabb {
     display: none;
     a {
