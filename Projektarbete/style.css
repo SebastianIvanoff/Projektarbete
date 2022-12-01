@@ -328,6 +328,7 @@ main .main-content .links .CTA {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 5px #A3C7D6;
+  font-family: "work-sans", sans-serif;
 }
 main .main-content .links .CTA:hover {
   background-color: #9F73AB;
@@ -414,10 +415,6 @@ main .main-content .links .CTA:hover {
   margin: 0;
 }
 
-body {
-  font-family: "Raleway", sans-serif;
-}
-
 header {
   background-color: #3F3B6C;
 }
@@ -427,8 +424,9 @@ li {
 }
 
 a {
-  color: white;
+  color: #A3C7D6;
   text-decoration: none;
+  font-family: "work-sans", sans-serif;
 }
 
 .container {
@@ -469,7 +467,7 @@ a {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
-  background-color: white;
+  background-color: #A3C7D6;
 }
 
 footer {
