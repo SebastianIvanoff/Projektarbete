@@ -83,12 +83,13 @@
 }
 #reviews .reviews-heading {
   letter-spacing: 1px;
-  margin: 30px 0px;
-  padding: 10px 20px;
+  width: 100%;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #624F82;
 }
 #reviews .reviews-heading .reference-h1 {
   font-size: 2.1rem;
@@ -158,6 +159,7 @@ input[type=submit]:hover {
   padding: 20px;
   font-family: "work-sans", sans-serif;
   color: #A3C7D6;
+  padding-bottom: 3rem;
 }
 
 .contact-page {
@@ -472,7 +474,7 @@ footer {
   color: #A3C7D6;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 15px rgb(120, 50, 129);
+  box-shadow: 0px 0px 15px #3F3B6C;
   height: 78px;
 }
 footer .content {
