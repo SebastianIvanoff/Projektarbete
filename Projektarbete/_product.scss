@@ -58,13 +58,13 @@
         margin: 0.5%;
         border-radius: 5px;
         background-color: $secondary-color;
+        display: flex;
        
 
         .product-info {
             margin-top: auto;
         }
 
-        display: flex;
         .product-image img {
             max-width: 100%;
             border-color: $fourth-color;
