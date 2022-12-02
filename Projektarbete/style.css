@@ -89,7 +89,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #624F82;
+  background-color: #3b304e;
 }
 #reviews .reviews-heading .reference-h1 {
   font-size: 2.1rem;
@@ -421,6 +421,10 @@ main .main-content .links .CTA:hover {
   font-family: "work-sans", sans-serif;
 }
 
+.CTA {
+  margin-bottom: 10rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -489,7 +493,7 @@ footer {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 15px rgb(120, 50, 129);
+  box-shadow: 0px 0px 15px #23213b;
   height: 78px;
 }
 footer .snabb {
