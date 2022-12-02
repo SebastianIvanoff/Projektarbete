@@ -2,11 +2,13 @@ main {
   min-height: calc(100vh - 82px - 57px);
   display: flex;
   justify-content: center;
+  background-color: $third-color;
   .main-content {
     width: 1400px;
     text-align: center;
     h1{
      font-family: $rubrik;
+     color: $fourth-color;
     }
     .links {
       display: flex;
@@ -15,10 +17,11 @@ main {
       margin-top: 90px;
       .CTA {
         background-color: $secondary-color;
-        color: white;
+        color: $fourth-color;
         padding: 10px;
         border-radius: 10px;
-        box-shadow: 10px 10px 5px $fourth-color;
+        box-shadow: 10px 10px 5px $main-color;
+        font-family: $text;
       }
       .CTA:hover {
         background-color: $third-color;
@@ -31,7 +34,7 @@ main {
   display: flex;
   justify-content: space-around;
   .img {
-    box-shadow: 10px 10px 5px $fourth-color;
+    box-shadow: 10px 10px 5px $main-color;
   }
 }
 
@@ -51,7 +54,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     .img {
-      margin: 10px 0 10px 0;
+      margin: 10px;
     }
   }
 }
